@@ -92,8 +92,8 @@ main {
 
 /* Main Content */
 section.main-content {
-  width: calc(60% - 30px);
-  margin: 0 15px;
+  width: calc(60% - 80px);
+  margin: 0 40px;
   padding: 30px;
   background-color: white;
   border-radius: 5px;
@@ -109,15 +109,17 @@ section.main-content p {
   line-height: 2;
 }
 
+/* Columns */
 aside {
   width: 20%;
-  background-color: white;
   border-radius: 5px;
 }
 
 /* Left Column */
 aside.col-left {
   padding: 5px;
+  background-color: white;
+
 }
 
 .col-left-logo {
@@ -145,11 +147,22 @@ aside.col-left {
   margin: 10px 0;
 }
 
-.col-right-box{
-  width: 90%;
-  height: 320px;
+/* Right Column */
+.col-right-box {
+  width: 100%;
   margin: 0 auto 30px;
-  background-color: lightgreen;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.col-right-box h2 {
+  margin-bottom: 30px;
+  color: rgb(94, 94, 94);
+}
+
+.col-right-box p {
+  line-height: 2;
 }
 
 /* Footer */
