@@ -90,11 +90,23 @@ main {
   margin: 10px 0;
 }
 
-section {
+/* Main Content */
+section.main-content {
   width: calc(60% - 30px);
-  height: 300px;
   margin: 0 15px;
-  background-color: purple;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: rgb(94, 94, 94);
+  text-transform: uppercase;
+}
+
+section.main-content p {
+  line-height: 2;
 }
 
 aside {
