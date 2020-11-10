@@ -14,7 +14,7 @@ a {
 }
 
 a:visited {
-  color: white;
+  color: green;
 }
 
 .container {
@@ -34,7 +34,7 @@ a:visited {
 }
 
 /* Header */
-header h2,li {
+header h2, header li {
   color: white;
   text-transform: uppercase;
 }
@@ -77,6 +77,10 @@ header nav li {
     font-weight: bold;
 }
 
+header nav li a:visited {
+  color: white;
+}
+
 header nav li:hover {
     background-color: rgb(164, 164, 164);
 }
@@ -99,8 +103,9 @@ aside {
   border-radius: 5px;
 }
 
+/* Left Column */
 aside.col-left {
-  height: 360px;
+  padding: 5px;
 }
 
 .col-left-logo {
@@ -108,16 +113,25 @@ aside.col-left {
   float: left;
 }
 
-.col-left.logo i {
-  
+.col-left-logo i {
+  font-size: 30px;
+  color: orange;
 }
 
 .col-left-head {
   width: 80%;
   float: left;
+  margin-bottom: 10px;
+  color: rgb(94, 94, 94);
 }
 
+.col-left ul {
+  list-style: none;
+}
 
+.col-left li {
+  margin: 10px 0;
+}
 
 .col-right-box{
   width: 90%;
