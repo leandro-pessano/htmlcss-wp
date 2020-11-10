@@ -124,7 +124,6 @@ aside.col-left {
 
 .col-left-logo {
   width: 20%;
-  float: left;
 }
 
 .col-left-logo i {
@@ -134,7 +133,6 @@ aside.col-left {
 
 .col-left-head {
   width: 80%;
-  float: left;
   margin-bottom: 10px;
   color: rgb(94, 94, 94);
 }
@@ -168,6 +166,20 @@ aside.col-left {
 /* Footer */
 footer {
   width: 100%;
-  height: 200px;
-  background-color: lightblue;
+  color: rgb(94, 94, 94);
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.footer-top {
+  padding: 0 4px;
+}
+
+footer .social {
+  display: inline-block;
+  font-size: 40px;
+  width: 33%;
+  height: 100px;
+line-height: 100px;
 }
